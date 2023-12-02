@@ -7,4 +7,4 @@ fi
 
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative $1
 
-# ./buildProto <ruta_del_archivo>
+# ./buildProto.sh <ruta_del_archivo>
